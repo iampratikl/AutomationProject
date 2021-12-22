@@ -1,0 +1,10 @@
+public void Dropdwon() throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", pathconfiguration.ChromDriverpath);
+		
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get(pathconfiguration.chromePageUrl);
+		
+		driver.manage().window().maximize();
